@@ -1,0 +1,12 @@
+# Devenv
+.devenv*
+devenv.local.nix
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
+
+# Don't publish the API Token from https://quantum.ibm.com/
+*/token_api_key.txt
